@@ -5,7 +5,7 @@ import progressbar
 phrase = input("Phrase: ")
 
 page = 0
-tits = 0
+count = 0
 while True:
     get_soup = requests.get(
         f"https://www.gettyimages.co.uk/photos/rihanna?family=editorial&page={page}&phrase={phrase}&sort=mostpopular")
